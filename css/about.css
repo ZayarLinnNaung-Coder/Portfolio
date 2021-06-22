@@ -43,7 +43,7 @@
     width: 90%;
 }
 @media only screen and (max-width: 800px) {
-    @media only screen and (max-height: 1100px) {
+    @media only screen and (max-height: 1200px) {
         .about-section .right .skill-container .left, .about-section .right .skill-container .right{
             width: 100%;
         }
@@ -51,7 +51,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-    @media only screen and (max-height: 750px) {
+    @media only screen and (max-height: 850px) {
         .about-section .left{
             width: 100%;
         }
