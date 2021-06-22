@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+<div class="top-container">
+    <header>
+        <img class="logo-img" src="img/logo.png" alt="">
+        <div class="link-container">
+            <a href="index.html">Home</a>
+            <a href="project.html">Projects</a>
+            <a href="#" class="active">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <section class="about-section">
+        <div class="left">
+            <img src="img/about.jpg" class="animate__animated animate__shakeY" alt="">
+        </div>
+        <div class="right">
+            <div class="text-container">
+                <h2 class="animate__animated animate__backInDown">About Me !</h2>
+                <p class="animate__animated animate__backInRight">I'm passionate about problem solving, coding. I usually spend my free time in front of computer.</p>
+            </div>
+            <div class="skill-container animate__animated animate__backInUp">
+                <div class="left">
+                    <div class="progress-bar">
+                        <span>HTML5</span><br>
+                        <progress id="html5" max="100" value="85"></progress>
+                    </div>
+                    <div class="progress-bar">
+                        <span>Javascript</span><br>
+                        <progress id="javascript" max="100" value="75"></progress>
+                    </div>
+                    <div class="progress-bar">
+                        <span>jQuery</span><br>
+                        <progress id="jQuery" max="100" value="80"></progress>
+                    </div>
+                    <div class="progress-bar">
+                        <span>Bootstrap</span><br>
+                        <progress id="bootstrap" max="100" value="85"></progress>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="progress-bar">
+                        <span>CSS3</span><br>
+                        <progress id="css3" max="100" value="90"></progress>
+                    </div>
+                    <div class="progress-bar">
+                        <span>Adobe Illustrator</span><br>
+                        <progress id="illustrator" max="100" value="70"></progress>
+                    </div>
+                    <div class="progress-bar">
+                        <span>Adobe Photoshop</span><br>
+                        <progress id="photoshop" max="100" value="70"></progress>
+                    </div>
+                    <div class="progress-bar">
+                        <span>Adobe XD</span><br>
+                        <progress id="xd" max="100" value="75"></progress>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="js/app.js"></script>
+<script>
+    feather.replace();
+</script>
+</body>
+</html>

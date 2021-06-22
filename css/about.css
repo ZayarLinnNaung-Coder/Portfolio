@@ -1,0 +1,62 @@
+.about-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-section .left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.about-section .left img{
+    width: 75%;
+}
+.about-section .right{
+    width: 50%;
+}
+.about-section .right .text-container{
+}
+.about-section .right .text-container h2{
+    font-size: var(--medium-font-size);
+    left: -100px;
+    top: 0;
+}
+.about-section .right .skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.about-section .right .skill-container .left, .about-section .right .skill-container .right{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-section .right .skill-container .progress-bar{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.about-section .right .skill-container .progress-bar progress{
+    width: 90%;
+}
+@media only screen and (max-width: 800px) {
+    @media only screen and (max-height: 1100px) {
+        .about-section .right .skill-container .left, .about-section .right .skill-container .right{
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    @media only screen and (max-height: 750px) {
+        .about-section .left{
+            width: 100%;
+        }
+        .about-section .right{
+            width: 100%;
+        }
+    }
+}
