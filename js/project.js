@@ -8,6 +8,7 @@ let projectDataArr = [
     {imageUrl: "img/projects/facebook-clone.jpg", caption: "Facebook Clone", category: "clone", link: "https://zayarlinnnaung-coder.github.io/Facebook-Clone/"},
     {imageUrl: "img/projects/currency-exchanger.jpg", caption: "As the name mentioned, it is used to convert your currencies very easily and efficiently. Addition to dark mode :D", category: "utility", link: "https://zayarlinnnaung-coder.github.io/jQuery_Projects/VoucherApp/"},
     {imageUrl: "img/projects/voucher.png", caption: "You can calculate the price of your product by one click with very great UX", category: "utility", link: "https://zayarlinnnaung-coder.github.io/Currency-Exchanger/"},
+    {imageUrl: "https://github.com/ZayarLinnNaung-Coder/PortfolioSample/blob/master/1/Capture.PNG", caption: "Sample Portfolio", category: "portfolio", link: "https://zayarlinnnaung-coder.github.io/PortfolioSample/1/project/index.html"},
 
     // {imageUrl: "", caption: "", category: ""}
 ]
@@ -42,6 +43,12 @@ document.querySelector('.lEcommerce').addEventListener('click', function () {
     removeActiveClass();
     this.classList.add("active");
     let filteredDataArr = projectDataArr.filter((data) => data.category === 'ecommerce');
+    showData(filteredDataArr)
+})
+document.querySelector('.lProtfolio').addEventListener('click', function () {
+    removeActiveClass();
+    this.classList.add("active");
+    let filteredDataArr = projectDataArr.filter((data) => data.category === 'portfolio');
     showData(filteredDataArr)
 })
 document.querySelector('.lGame').addEventListener('click', function () {
