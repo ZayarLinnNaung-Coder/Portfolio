@@ -4,8 +4,8 @@ let projectColThree = document.querySelector(".projectColThree");
 let projectColFour = document.querySelector(".projectColFour");
 
 let projectDataArr = [
-     {imageUrl: "img/projects/ZColorKit.png", caption: "ZColorKit can turn your color to darken or lighten one. Fully responsive and easy to use.", category: "utility", link: "https://zayarlinnnaung-coder.github.io/ZColorKit/"},
-    {imageUrl: "img/projects/KanHtooP.png", caption: "It's for validation of lottery in Myanmar.", category: "utility", link: "https://github.com/ZayarLinnNaung-Coder/KanHtooP"},
+     {imageUrl: "https://raw.githubusercontent.com/ZayarLinnNaung-Coder/Portfolio/master/img/projects/ZColorKit.png", caption: "ZColorKit can turn your color to darken or lighten one. Fully responsive and easy to use.", category: "utility", link: "https://zayarlinnnaung-coder.github.io/ZColorKit/"},
+    {imageUrl: "https://raw.githubusercontent.com/ZayarLinnNaung-Coder/Portfolio/master/img/projects/KanHtooP.png", caption: "It's for validation of lottery in Myanmar.", category: "utility", link: "https://github.com/ZayarLinnNaung-Coder/KanHtooP"},
     {imageUrl: "img/projects/zcc.png", caption: "ZCCUtil is for validation for your credit card number and creating a fake card.", category: "utility", link: "https://github.com/ZayarLinnNaung-Coder/ZCCUtil"},
     {imageUrl: "img/projects/facebook-clone.jpg", caption: "Facebook Clone", category: "clone", link: "https://zayarlinnnaung-coder.github.io/Facebook-Clone/"},
     {imageUrl: "img/projects/currency-exchanger.jpg", caption: "As the name mentioned, it is used to convert your currencies very easily and efficiently. Addition to dark mode :D", category: "utility", link: "https://zayarlinnnaung-coder.github.io/jQuery_Projects/VoucherApp/"},
