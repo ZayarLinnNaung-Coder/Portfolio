@@ -6,11 +6,11 @@ let projectColFour = document.querySelector(".projectColFour");
 let projectDataArr = [
      {imageUrl: "https://raw.githubusercontent.com/ZayarLinnNaung-Coder/Portfolio/master/img/projects/ZColorKit.png", caption: "ZColorKit can turn your color to darken or lighten one. Fully responsive and easy to use.", category: "utility", link: "https://zayarlinnnaung-coder.github.io/ZColorKit/"},
     {imageUrl: "https://raw.githubusercontent.com/ZayarLinnNaung-Coder/Portfolio/master/img/projects/KanHtooP.png", caption: "It's for validation of lottery in Myanmar.", category: "utility", link: "https://github.com/ZayarLinnNaung-Coder/KanHtooP"},
-    {imageUrl: "img/projects/zcc.png", caption: "ZCCUtil is for validation for your credit card number and creating a fake card.", category: "utility", link: "https://github.com/ZayarLinnNaung-Coder/ZCCUtil"},
-    {imageUrl: "img/projects/facebook-clone.jpg", caption: "Facebook Clone", category: "clone", link: "https://zayarlinnnaung-coder.github.io/Facebook-Clone/"},
-    {imageUrl: "img/projects/currency-exchanger.jpg", caption: "As the name mentioned, it is used to convert your currencies very easily and efficiently. Addition to dark mode :D", category: "utility", link: "https://zayarlinnnaung-coder.github.io/jQuery_Projects/VoucherApp/"},
-    {imageUrl: "img/projects/voucher.png", caption: "You can calculate the price of your product by one click with very great UX", category: "utility", link: "https://zayarlinnnaung-coder.github.io/Currency-Exchanger/"},
-    {imageUrl: "img/projects/portfolio-1.png", caption: "Sample Portfolio", category: "portfolio", link: "https://zayarlinnnaung-coder.github.io/PortfolioSample/1/project/index.html"},
+    {imageUrl: "https://raw.githubusercontent.com/ZayarLinnNaung-Coder/Portfolio/master/img/projects/zcc.png", caption: "ZCCUtil is for validation for your credit card number and creating a fake card.", category: "utility", link: "https://github.com/ZayarLinnNaung-Coder/ZCCUtil"},
+    {imageUrl: "https://raw.githubusercontent.com/ZayarLinnNaung-Coder/Portfolio/master/img/projects/facebook-clone.jpg", caption: "Facebook Clone", category: "clone", link: "https://zayarlinnnaung-coder.github.io/Facebook-Clone/"},
+    {imageUrl: "https://raw.githubusercontent.com/ZayarLinnNaung-Coder/Portfolio/master/img/projects/currency-exchanger.jpg", caption: "As the name mentioned, it is used to convert your currencies very easily and efficiently. Addition to dark mode :D", category: "utility", link: "https://zayarlinnnaung-coder.github.io/jQuery_Projects/VoucherApp/"},
+    {imageUrl: "https://raw.githubusercontent.com/ZayarLinnNaung-Coder/Portfolio/master/img/projects/voucher.png", caption: "You can calculate the price of your product by one click with very great UX", category: "utility", link: "https://zayarlinnnaung-coder.github.io/Currency-Exchanger/"},
+    {imageUrl: "https://raw.githubusercontent.com/ZayarLinnNaung-Coder/Portfolio/master/img/projects/portfolio-1.png", caption: "Sample Portfolio", category: "portfolio", link: "https://zayarlinnnaung-coder.github.io/PortfolioSample/1/project/index.html"},
 
     // {imageUrl: "", caption: "", category: ""}
 ]
